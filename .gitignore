@@ -1,0 +1,19 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Jupyter / IPython checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.log
+~$*

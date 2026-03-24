@@ -34,6 +34,10 @@ install.packages('IRkernel')
 IRkernel::installspec()
 ```
 
+## Cómo clonar y mantenerse actualizado
+
+Consulta el archivo [INSTRUCCIONES.md](./INSTRUCCIONES.md) para una guía paso a paso sobre cómo instalar Git, clonar el repositorio y actualizarlo cada semana con `git pull`.
+
 ---
 
 *Repositorio mantenido por Juan Pino — ayudante EYP3417.*

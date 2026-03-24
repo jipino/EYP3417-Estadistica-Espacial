@@ -15,7 +15,7 @@ Repositorio de ayudantías del curso **EYP3417 - Estadística Espacial** de la P
 | # | Tema | Materiales |
 |---|------|------------|
 | [01](./Ayudantía%2001/) | Semivariograma Esférico | [Enunciado](./Ayudantía%2001/Ay-01.pdf) · [Solución](./Ayudantía%2001/Ay_01_Sol.pdf) · [Código R](./Ayudantía%2001/Ay_01_Espacial_R.ipynb) |
-| [02](./Ayudantía%2002/) | — | [Enunciado](./Ayudantía%2002/Ay_02.pdf) |
+| [02](./Ayudantía%2002/) | Análisis Variográfico — Acuífero Wolfcamp | [Enunciado](./Ayudantía%2002/Ay_02.pdf) · [Código R](./Ayudantía%2002/Ay_02_Espacial.R) |
 
 ---
 

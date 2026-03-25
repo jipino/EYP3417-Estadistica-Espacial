@@ -40,4 +40,4 @@ Consulta el archivo [INSTRUCCIONES.md](./INSTRUCCIONES.md) para una guía paso a
 
 ---
 
-*Repositorio mantenido por Juan Pino — ayudante EYP3417.*
+*Repositorio mantenido por Juan Pino.*

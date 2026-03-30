@@ -16,6 +16,7 @@ Repositorio de ayudantías del curso **EYP3417 - Estadística Espacial** de la P
 |---|------|------------|
 | [01](./Ayudantía%2001/) | Semivariograma Esférico | [Enunciado](./Ayudantía%2001/Ay-01.pdf) · [Solución](./Ayudantía%2001/Ay_01_Sol.pdf) · [Código R](./Ayudantía%2001/Ay_01_Espacial_R.ipynb) |
 | [02](./Ayudantía%2002/) | Análisis Variográfico — Acuífero Wolfcamp | [Enunciado](./Ayudantía%2002/Ay_02.pdf) · [Código R](./Ayudantía%2002/Ay_02_Espacial.R) |
+| [03](./Ayudantía%2003/) | Inferencia Paramétrica — MCO, MCP, MV, Matérn, Anisotropía | [Enunciado](./Ayudantía%2003/Ay_03.pdf) · [Código R](./Ayudantía%2003/Ay_03_Espacial.R) |
 
 ---
 

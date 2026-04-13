@@ -18,6 +18,7 @@ Repositorio de ayudantías del curso **EYP3417 - Estadística Espacial** de la P
 | [02](./Ayudantía%2002/) | Análisis Variográfico — Acuífero Wolfcamp | [Enunciado](./Ayudantía%2002/Ay_02.pdf) · [Código R](./Ayudantía%2002/Ay_02_Espacial.R) |
 | [03](./Ayudantía%2003/) | Inferencia Paramétrica — MCO, MCP, MV, Matérn, Anisotropía | [Enunciado](./Ayudantía%2003/Ay_03.pdf) · [Código R](./Ayudantía%2003/Ay_03_Espacial.R) |
 | [04](./Ayudantía%2004/) | Kriging Simple y Ordinario — Mapas predictivos, varianza, interpolador exacto, O(n³) | [Enunciado](./Ayudantía%2004/Ay_04.pdf) · [Código R](./Ayudantía%2004/Ay_04_Espacial.R) |
+| [05](./Ayudantía%2005/) | Pipeline geoestadístico completo — Isla Rongelap (EDA, variograma, MV, KS/KO, LOO-CV) | [Enunciado](./Ayudantía%2005/Ay_05.pdf) · [Código R](./Ayudantía%2005/Ay_05_Espacial.R) |
 
 ---
 

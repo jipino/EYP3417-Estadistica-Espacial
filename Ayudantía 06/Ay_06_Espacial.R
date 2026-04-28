@@ -78,7 +78,7 @@ library(patchwork)
 ## es un único archivo, sino un conjunto de archivos con la misma raíz:
 ## .shp (geometría), .dbf (atributos), .prj (sistema de coordenadas), etc.
 
-chile <- sf::st_read("comunas.shp")
+chile <- sf::st_read("data/shapefiles/comunas.shp")
 
 ## Filtramos para la Región Metropolitana
 rm <- chile %>%
@@ -111,7 +111,7 @@ summary(nb_queen)
 ## Cargamos el archivo parquet con datos del CEAD (2018–2024).
 ## Ver repositorio de origen: https://github.com/bastianolea/delincuencia_chile
 
-delincuencia <- arrow::read_parquet("cead_delincuencia_chile.parquet") |>
+delincuencia <- arrow::read_parquet("data/cead_delincuencia_chile.parquet") |>
   rename(delitos = delito_n)
 
 ## Diagnóstico: ¿qué años y cuántas comunas RM están disponibles?

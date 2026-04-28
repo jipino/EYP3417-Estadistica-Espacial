@@ -1313,3 +1313,11 @@ cat(sprintf("  CAR: I = %.4f  (p-valor = %.4f)\n",
 ## Si el I de Moran del OLS es significativo y el del CAR no lo es,
 ## concluimos que el modelo CAR capturó adecuadamente la dependencia espacial
 ## presente en los datos de delincuencia comunal.
+
+## Interpretación de Autocorrelación Espacial (I de Moran):
+## 1. OLS (I = -0.0085, p = 0.4447): No hay evidencia de autocorrelación. 
+##    El p-valor > 0.05 indica que los residuos se distribuyen de forma aleatoria.
+## 2. CAR (I = 0.0001, p = 0.4026): El modelo CAR ha filtrado eficazmente 
+##    cualquier dependencia espacial; el estadístico es virtualmente cero.
+## Conclusión: Ambos modelos cumplen con el supuesto de independencia espacial 
+## en los residuos (ruido blanco). No se detectan patrones geográficos omitidos.

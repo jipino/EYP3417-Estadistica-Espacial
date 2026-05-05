@@ -1,0 +1,21 @@
+# R History
+.Rhistory
+.Rapp.history
+
+# RStudio
+.Rproj.user/
+.Rproject.user/
+*.Rproj
+
+# Generated outputs
+output/*.png
+output/*.pdf
+output/*.tif
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+
+# OS files
+Thumbs.db

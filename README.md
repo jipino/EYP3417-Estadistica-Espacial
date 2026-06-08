@@ -19,6 +19,9 @@ Repositorio de ayudantías del curso **EYP3417 - Estadística Espacial** de la P
 | [03](./Ayudantía%2003/) | Inferencia Paramétrica — MCO, MCP, MV, Matérn, Anisotropía | [Enunciado](./Ayudantía%2003/Ay_03.pdf) · [Código R](./Ayudantía%2003/Ay_03_Espacial.R) |
 | [04](./Ayudantía%2004/) | Kriging Simple y Ordinario — Mapas predictivos, varianza, interpolador exacto, O(n³) | [Enunciado](./Ayudantía%2004/Ay_04.pdf) · [Código R](./Ayudantía%2004/Ay_04_Espacial.R) |
 | [05](./Ayudantía%2005/) | Pipeline geoestadístico completo — Isla Rongelap (EDA, variograma, MV, KS/KO, LOO-CV) | [Enunciado](./Ayudantía%2005/Ay_05.pdf) · [Código R](./Ayudantía%2005/Ay_05_Espacial.R) |
+| [06](./Ayudantía%2006/) | Datos Areales — Modelos Ising y CAR | [Enunciado](./Ayudantía%2006/Ay_06.pdf) · [Código R](./Ayudantía%2006/Ay_06_Espacial.R) |
+| [07](./Ayudantía%2007/) | Campos Aleatorios de Markov, Modelos CAR y Procesos de Poisson Espaciales | [Enunciado](./Ayudantía%2007/Ay_07.pdf) · [Solución](./Ayudantía%2007/Ay_07_Sol.pdf) |
+| [08](./Ayudantía%2008/) | Evaluación Crítica de Dependencia Espacial en Delincuencia Comunal | [Enunciado](./Ayudantía%2008/Ay_08.pdf) · [Código R](./Ayudantía%2008/Ay_08_Diagnostico_Espacial.R) |
 
 ---
 

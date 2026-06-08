@@ -3,14 +3,14 @@
 ##  Tema: Evaluación Crítica de Dependencia Espacial en Delincuencia
 ## ============================================================
 
-library(tidyverse)      # dplyr, ggplot2, tidyr
-library(lubridate)      # Manejo de fechas
-library(sf)             # Objetos espaciales (shapefiles)
-library(spdep)          # Análisis de dependencia espacial
-library(spatialreg)     # Regresión espacial (CAR, SAR)
-library(arrow)          # Lectura de parquet
-library(ggplot2)        # Visualización
-library(patchwork)      # Composición de gráficos
+library(tidyverse)      
+library(lubridate)      
+library(sf)             
+library(spdep)          
+library(spatialreg)     
+library(arrow)          
+library(ggplot2)        
+library(patchwork)      
 
 
 ## ============================================================
@@ -114,6 +114,7 @@ tasa <- rm$tasa_delitos
 # Test de Moran I global
 # H0: No hay autocorrelación espacial (I = 0)
 # Ha: Hay autocorrelación espacial (positiva o negativa)
+
 moran_test <- moran.test(tasa, W)
 
 cat("--- Moran I Global ---\n")
@@ -386,7 +387,7 @@ cat("--- Multiplicadores Espaciales (SAR) ---\n")
 cat("Miden cómo un shock (cambio) en una comuna se propaga a través de la red.\n\n")
 
 effects_sar <- impacts(reg_sar, listw = W)
-print(summary(effects_sar, zstats = TRUE))
+print(effects_sar)
 
 cat("\nINTERPRETACIÓN MULTIPLICADORES:\n")
 cat("• Direct effect:   Efecto DIRECTO de cambio en X_i sobre Y_i.\n")
@@ -398,7 +399,7 @@ cat("• Total effect:    SUMA de efectos directos e indirectos.\n\n")
 # Indirect effect ≈ 1.347
 # Total ≈ 7.382
 #
-# Interpretación: Si ingreso en Santiago aumenta en 1 k.p.:
+# Interpretación: Si ingreso en Santiago aumenta en 1:
 # - Santiago mismo aumenta ~6 delitos (efecto directo)
 # - Vecinos de Santiago aumentan ~1.3 delitos en CONJUNTO (spillover)
 # - Total: ~7.4 delitos de aumento en la red

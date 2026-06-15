@@ -39,7 +39,7 @@ cat(sprintf("PPP no homogéneo: n = %d puntos simulados (λ(x,y) = 200·e^(-3x))
 ## Para el caso homogéneo tenemos μ([0,1]²) = λ · área = 100 · 1 = 100 →  n = 105, es decir, la media
 ## está dentro de la variabilidad típica de una Poisson(100), cuya desv. est. es 10.
 
-## Para el caso no homogéneo μ([0,1]²) = ∫₀¹∫₀¹ 200·e^(-3x) dx dy = (200/3)(1 − e^(-3)) ≈ 66.3  →  n = 50
+## Para el caso no homogéneo μ([0,1]²) = ∫₀¹∫₀¹ 200·e^(-3x) dx dy = (200/3)(1 − e^(-3)) ≈ 66.3  →  n = 68
 ## un valor algo por debajo de la media, pero perfectamente plausible para una Poisson(66.3) (desv. est ≈ 8.1)
 
 ## Es completamente esperable que el proceso no homogéneo genere muchos menos puntos en total que el homogéneo,
@@ -65,7 +65,7 @@ par(mfrow = c(1, 1), mar = c(5.1, 4.1, 4.1, 2.1))
 ## de puntos hacia el borde izquierdo del cuadrado, y una progresiva dilución (puntos
 ## cada vez más escasos) a medida que x crece hacia 1. El gradiente de densidad de
 ## puntos de izquierda a derecha es visualmente evidente y replica fielmente la forma
-## exponencial decrediente de λ en la dirección x.
+## exponencial decreciente de λ en la dirección x.
 
 ## ------------------------------------------------------------
 ## 1(c) Estimación no paramétrica de la intensidad (kernel gaussiano)
@@ -120,7 +120,7 @@ par(mfrow = c(1, 1), mar = c(5.1, 4.1, 4.1, 2.1))
 ## a derecha, perdiendo el detalle de la verdadera forma exponencial y estirando la influencia de
 ## los puntos mucho más allá de su entorno real (alto sesgo, baja varianza)
 
-## Bandwidth óptimo: Logra un balance sesgo-varianza adecuado, puesel mapa de intensidad estimado
+## Bandwidth óptimo: Logra un balance sesgo-varianza adecuado, pues el mapa de intensidad estimado
 ## muestra manchas suaves de alta intensidad concentradas hacia el borde izquierdo (x ≈ 0) que decaen gradualmente hacia la derecha 
 ## recuperando visualmente  el patrón de decaimiento exponencial en la dirección x, sin verse dominado por fluctuaciones puntuales del 
 ## muestreo ni perder la estructura real por exceso de promediado.

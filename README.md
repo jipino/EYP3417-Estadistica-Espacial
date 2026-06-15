@@ -22,6 +22,8 @@ Repositorio de ayudantías del curso **EYP3417 - Estadística Espacial** de la P
 | [06](./Ayudantía%2006/) | Datos Areales — Modelos Ising y CAR | [Enunciado](./Ayudantía%2006/Ay_06.pdf) · [Código R](./Ayudantía%2006/Ay_06_Espacial.R) |
 | [07](./Ayudantía%2007/) | Campos Aleatorios de Markov, Modelos CAR y Procesos de Poisson Espaciales | [Enunciado](./Ayudantía%2007/Ay_07.pdf) · [Solución](./Ayudantía%2007/Ay_07_Sol.pdf) |
 | [08](./Ayudantía%2008/) | Evaluación Crítica de Dependencia Espacial en Delincuencia Comunal | [Enunciado](./Ayudantía%2008/Ay_08.pdf) · [Código R](./Ayudantía%2008/Ay_08_Diagnostico_Espacial.R) |
+| [09](./Ayudantía%2009/) | Procesos Puntuales — Intensidad, PPP, Funciones K/L y Modelos Log-lineales | [Enunciado](./Ayudantía%2009/Ay_09.pdf) · [Código R](./Ayudantía%2009/Ay_09_Espacial.R) · [Solución teórica](./Ayudantía%2009/Ayudantía%2009%20-%20Estadística%20Espacial.md) |
+| [10](./Ayudantía%2010/) | Tests de CSR — Funciones G, F, K y L con Datos Reales | [Enunciado](./Ayudantía%2010/Ay_10.pdf) · [Código R](./Ayudantía%2010/Ay_10_Espacial.R) |
 
 ---
 

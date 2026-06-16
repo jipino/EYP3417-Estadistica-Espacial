@@ -24,6 +24,7 @@ Repositorio de ayudantías del curso **EYP3417 - Estadística Espacial** de la P
 | [08](./Ayudantía%2008/) | Evaluación Crítica de Dependencia Espacial en Delincuencia Comunal | [Enunciado](./Ayudantía%2008/Ay_08.pdf) · [Código R](./Ayudantía%2008/Ay_08_Diagnostico_Espacial.R) |
 | [09](./Ayudantía%2009/) | Procesos Puntuales — Intensidad, PPP, Funciones K/L y Modelos Log-lineales | [Enunciado](./Ayudantía%2009/Ay_09.pdf) · [Código R](./Ayudantía%2009/Ay_09_Espacial.R) · [Solución teórica](./Ayudantía%2009/Ayudantía%2009%20-%20Estadística%20Espacial.md) |
 | [10](./Ayudantía%2010/) | Tests de CSR — Funciones G, F, K y L con Datos Reales | [Enunciado](./Ayudantía%2010/Ay_10.pdf) · [Código R](./Ayudantía%2010/Ay_10_Espacial.R) |
+| [11](./Ayudantía%2011/) | Procesos Puntuales — PPP Inhomogéneo, Modelo Matérn-I y Análisis de Trampas Cámara | [Enunciado](./Ayudantía%2011/Ay_11.pdf) · [Código R](./Ayudantía%2011/Ay_11_Espacial.R) · [Solución teórica](./Ayudantía%2011/Ayudantía%2011%20-%20Solución%20ejercicios%201%20y%202.md) |
 
 ---
 
